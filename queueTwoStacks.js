@@ -23,10 +23,9 @@ function queueTwoStacks(){
       populateOutStack();
     }
   }
-}
-
-function populateOutStack(){
-  while(inStack.length){
-    outStack.push(inStack.pop());
+  function populateOutStack(){
+    while(inStack.length){
+      outStack.push(inStack.pop());
+    }
   }
 }
