@@ -32,7 +32,7 @@ class URLShortner(){
   getRandomLinkCode(){
     let linkCode = '';
     for(let i=0; i<linkCodeLength; i++){
-      linkCode += this.chars[ Math.floor(Math.random()*this.chars.length) ];
+      linkCode += String.fromCharCode(this.chars[ Math.floor(Math.random()*this.chars.length) ]);
     }
     return linkCode;
   }
