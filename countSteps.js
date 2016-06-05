@@ -7,6 +7,11 @@ function countSteps(n) {
   } else if(n < 0) {
     return 0
   } else {
-    return countSteps(n-1) + countSteps(n-2) + countSteps(n-3); 
+    return countSteps(n-1) + countSteps(n-2) + countSteps(n-3);
   }
 }
+
+console.log(countSteps(1)); //1
+console.log(countSteps(2)); //2
+console.log(countSteps(3)); //4
+console.log(countSteps(4)); //7
