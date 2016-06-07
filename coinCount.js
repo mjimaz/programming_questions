@@ -10,8 +10,8 @@ function coinCount(n, currentIndex = 0, count=0){
   return count;
 }
 
-console.log(coinCount(1));
-console.log(coinCount(2));
-console.log(coinCount(5));
-console.log(coinCount(10));
-console.log(coinCount(100));
+console.log(coinCount(1)); //1
+console.log(coinCount(2)); //1
+console.log(coinCount(5)); //2
+console.log(coinCount(10)); //4
+console.log(coinCount(100)); //242
