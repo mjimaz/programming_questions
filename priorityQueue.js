@@ -1,3 +1,5 @@
+// https://community.topcoder.com/stat?c=problem_statement&pm=14295
+
 function priorityQueue(str, displeasure){
   let total_displeasure = new Array(str.length).fill(0);
   for(let i=0; i<str.length; i++){
